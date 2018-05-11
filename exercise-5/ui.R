@@ -30,7 +30,27 @@ shinyUI(navbarPage(
         plotlyOutput("map")
       )
     )
-  )
+  ),
 
   # Create a tabPanel to show your scatter plot
+  tabPanel(
+     "scatter",
+     titlePanel("Population vs Vote Power"),
+     # Create sidebar layout
+     sidebarLayout(
+        
+        # Side panel for controls
+        sidebarPanel(
+           
+           # Input to select variable to map
+           textInput("search", label = "Find a State", value =)
+           )
+        ,
+        
+        # Main panel: display plotly map
+        mainPanel(
+           plotlyOutput("scatter")
+        )
+     )
+  )
 ))

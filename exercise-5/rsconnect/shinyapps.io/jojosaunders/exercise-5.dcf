@@ -1,0 +1,12 @@
+name: exercise-5
+title: exercise-5
+username:
+account: jojosaunders
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 341650
+bundleId: 1369797
+url: https://jojosaunders.shinyapps.io/exercise-5/
+when: 1526080838.90471
+asMultiple: FALSE
+asStatic: FALSE
